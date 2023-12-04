@@ -36,7 +36,7 @@ const App = () => {
   }, [selectedQuarter]);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center min-h-screen bg-black/10">
       <Dropdown
         quarters={quarters}
         selectedQuarter={selectedQuarter}
